@@ -1,10 +1,21 @@
-header{
-	height: 100px;
-	width: 100%;
-}
+/*********** Universal Styles ***********/
 body{
+	font-family: 'Amatic SC', cursive;
 	
 }
+
+/*********** Header Styles ***********/
+header{	height: 100px; width: 100%; }
+nav{
+
+}
+
+
+/*********** Main Styles ***********/
+
+
+
+/*********** Footer Styles ***********/
 footer{
 	position: fixed;
 	bottom: 0px;
