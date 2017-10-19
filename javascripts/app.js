@@ -1,7 +1,7 @@
 var wedding = (function(){
 
 	function initialize(){
-		getaddons();
+		getAddons();
 	}
 	
 	function getAddons(){
