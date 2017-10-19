@@ -11,8 +11,8 @@ h1, h2{
 h2{ font-size: 24px; }
 
 /*********** Header Styles ***********/
-header{	height: 100px; width: 100%; }
-nav{ font-family: 'Amatic SC', cursive; }
+header{	height: 80px; width: 100%; }
+nav{ font-family: 'Amatic SC', cursive; font-size: 16px; }
 nav ul{	list-style-type: none; }
 nav ul li a{ 
 	width: 100px; 
