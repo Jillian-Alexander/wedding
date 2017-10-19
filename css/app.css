@@ -1,17 +1,30 @@
 /*********** Universal Styles ***********/
 body{
 	font-family: 'Dosis', sans-serif;
+	font: 14px;
 }
-h1{
-	font-family: 'Amatic SC', cursive;
+h1, h2{	
+	font-family: 'Amatic SC', cursive; 
+	font-size: 32px;
 }
+
+h2{ font-size: 24px; }
 
 /*********** Header Styles ***********/
 header{	height: 100px; width: 100%; }
-nav{
-	font-family: 'Amatic SC', cursive;
+nav{ font-family: 'Amatic SC', cursive; }
+nav ul{	list-style-type: none; }
+nav ul li a{ 
+	width: 100px; 
+	height: 80px; 
+	text-align: center;
+	background-color: transparent;
+	transition: background-color .5s;
+ }
+nav ul li a:hover{ 
+	background-color: #8CEC8E; 
+	transition: background-color .5s; 
 }
-
 
 /*********** Main Styles ***********/
 
