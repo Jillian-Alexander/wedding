@@ -6,7 +6,11 @@ var wedding = (function(){
 	
 	function getAddons(){
     $('header').load("/wedding/addons/navigation.html"); 
-    $('head').load("/wedding/addons/links.html")
+    $.ajax({
+    	url: "/wedding/addons/links.html",
+    	success: function(data){$('head').append(data);},
+    	dataType: 'html'
+    });
 	}
 
 	$(document).ready(initialize);
