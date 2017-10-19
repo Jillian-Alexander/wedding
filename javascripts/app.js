@@ -5,7 +5,7 @@ var wedding = (function(){
 	}
 	
 	function getNav(){
-    $('nav').load("/wedding/addons/navigation.html"); 
+    $('header').load("/wedding/addons/navigation.html"); 
 	}
 
 	$(document).ready(initialize);
