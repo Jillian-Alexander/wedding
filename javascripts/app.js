@@ -1,11 +1,12 @@
 var wedding = (function(){
 
 	function initialize(){
-		getNav();
+		getaddons();
 	}
 	
-	function getNav(){
+	function getAddons(){
     $('header').load("/wedding/addons/navigation.html"); 
+    $('head').load("/wedding/addons/links.html")
 	}
 
 	$(document).ready(initialize);

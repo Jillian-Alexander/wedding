@@ -1,13 +1,15 @@
 /*********** Universal Styles ***********/
 body{
+	font-family: 'Dosis', sans-serif;
+}
+h1{
 	font-family: 'Amatic SC', cursive;
-	
 }
 
 /*********** Header Styles ***********/
 header{	height: 100px; width: 100%; }
 nav{
-
+	font-family: 'Amatic SC', cursive;
 }
 
 
