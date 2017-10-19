@@ -20,6 +20,7 @@ nav ul li a{
 	text-align: center;
 	background-color: transparent;
 	transition: background-color .5s;
+	display: inline-block;
  }
 nav ul li a:hover{ 
 	background-color: #8CEC8E; 
