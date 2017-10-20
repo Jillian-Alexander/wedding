@@ -40,7 +40,9 @@ nav ul li a:hover{
 /*********** Banner Styles ***********/
 .main-page .banner{ position: absolute; top: 0; left: 0; }
 .banner-container{ width: 100%; height: 450px; position: relative; overflow: hidden; color: #ffffff;}
-.banner, .banner a{ height: inherit; }
+.banner{ height: inherit; }
+.banner a{ height: 100%; width: 100%; display: block;}
+.banner a, .banner a:hover, .banner a:visited, .banner a:link{ color: #ffffff; }
 .banner-text{ 
 	position: absolute; 
 	top: 20px; 
