@@ -3,8 +3,8 @@ var wedding = (function(){
 
 	function initialize(){
 		getAddons();
-		banners = $('div#main-page div.banner').length;
-		$('#main-page .banner').css({display: "none"});
+		banners = $('#main-page > .banner').length;
+		// $('#main-page .banner').css({display: "none"});
 		$('.banner').eq(count).fadeIn(500);
 		console.log(banners);
 		if($('#main-page').length){
