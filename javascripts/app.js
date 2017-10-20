@@ -4,7 +4,8 @@ var wedding = (function(){
 
 	function initialize(){
 		getAddons();
-		console.log($('.banner'))
+		$('.banner').css({display: "none"});
+		$('.banner').eq(count).fadeIn(500);
 		if($('#main-page').length){
 			var timer = window.setInterval(rotator, 7000);
 		}
