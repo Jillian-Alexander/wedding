@@ -8,7 +8,7 @@ var wedding = (function(){
 		$('.banner').eq(count).fadeIn(1000);
 
 		if($('#main-page').length){
-			var timer = window.setInterval(rotator, 7000);
+			var timer = window.setInterval(rotator, 8000);
 		}
 	}
 	
@@ -25,7 +25,6 @@ var wedding = (function(){
 		(count == banners - 1) ? count = 0 : count++;
 		$('.banner').eq(count).fadeIn(1000);
 		$('.banner').eq(count - 1).fadeOut(1000);
-
 	}
 
 
