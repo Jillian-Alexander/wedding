@@ -1,4 +1,5 @@
 var wedding = (function(){
+	var banners = $('.banner').length;
 	var count = 0;
 
 	function initialize(){
@@ -20,7 +21,7 @@ var wedding = (function(){
 	}
 
 	function rotator(){
-		if(count < $('.banner').length) count = count + 1;
+		if(count < banners) count++;
 		console.log(count);
 	}
 
