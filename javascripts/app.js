@@ -1,6 +1,5 @@
 var wedding = (function(){
-	var banner = $('.banner'),
-	count = 0;
+	var count = 0;
 
 	function initialize(){
 		getAddons();
@@ -21,7 +20,7 @@ var wedding = (function(){
 	}
 
 	function rotator(){
-		if(count < banner.length) count++;
+		if(count < $('.banner').length) count = count + 1;
 		console.log(count);
 	}
 
