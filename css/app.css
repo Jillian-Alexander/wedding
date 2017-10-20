@@ -38,6 +38,7 @@ nav ul li a:hover{
 
 
 /*********** Banner Styles ***********/
+#main-page .banner{ display: none; }
 .banner-container{ width: 100%; height: 450px; position: relative; overflow: hidden; color: #ffffff;}
 .banner{ height: inherit;}
 .banner-text{ 

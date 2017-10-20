@@ -1,7 +1,11 @@
 var wedding = (function(){
+	var banner = $('#main-page .banner'),
+	count = 0;
 
 	function initialize(){
 		getAddons();
+		banner.eq(count).fadeIn();
+		//var timer = window.setInterval(rotator, 7000);
 	}
 	
 	function getAddons(){
@@ -12,6 +16,12 @@ var wedding = (function(){
     	dataType: 'html'
     });
 	}
+
+	function rotator(){
+		if(count < banner.length) count++;
+		console.log(count);
+	}
+
 
 	$(document).ready(initialize);
 
