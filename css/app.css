@@ -24,7 +24,7 @@ nav ul{	list-style-type: none; font-size: 0;}
 nav ul li{ display: inline-block; width: 150px; height: 80px; }
 nav ul li a{ 
 	display: block;
-	width: 100px; 
+	width: 150px; 
 	line-height: 80px; 
 	background-color: transparent;
 	transition: background-color .5s;
