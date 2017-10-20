@@ -1,5 +1,5 @@
 var wedding = (function(){
-	var banner = $('#main-page .banner'),
+	var banner = $('.banner'),
 	count = 0;
 
 	function initialize(){
