@@ -4,9 +4,9 @@ var wedding = (function(){
 	function initialize(){
 		getAddons();
 		banners = $('#main-page > .banner').length;
-		// $('#main-page .banner').css({display: "none"});
-		$('.banner').eq(count).fadeIn(500);
-		console.log(banners);
+		$('#main-page .banner').css({display: "none"});
+		$('.banner').eq(count).fadeIn(1000);
+
 		if($('#main-page').length){
 			var timer = window.setInterval(rotator, 7000);
 		}
@@ -22,8 +22,11 @@ var wedding = (function(){
 	}
 
 	function rotator(){
-		if(count < banners) count++;
-		console.log(count);
+		(count == banners - 1) ? count = 0 : count++;
+		$('.banner').eq(count).fadeIn(1000, function(){
+			$('.banner').eq(count - 1).fadeOut(1000);
+		});
+
 	}
 
 
