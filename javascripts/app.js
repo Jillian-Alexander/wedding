@@ -23,9 +23,8 @@ var wedding = (function(){
 
 	function rotator(){
 		(count == banners - 1) ? count = 0 : count++;
-		$('.banner').eq(count).fadeIn(1000, function(){
-			$('.banner').eq(count - 1).fadeOut(1000);
-		});
+		$('.banner').eq(count).fadeIn(1000);
+		$('.banner').eq(count - 1).fadeOut(1000);
 
 	}
 
