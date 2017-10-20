@@ -1,10 +1,10 @@
 var wedding = (function(){
-	var banners = $('.banner').length;
-	var count = 0;
+	var banners, count = 0;
 
 	function initialize(){
 		getAddons();
-		$('.banner').css({display: "none"});
+		banners = $('div#main-page div.banner').length;
+		$('#main-page .banner').css({display: "none"});
 		$('.banner').eq(count).fadeIn(500);
 		console.log(banners);
 		if($('#main-page').length){
