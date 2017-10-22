@@ -29,15 +29,12 @@ var wedding = (function(){
 	}
 
 	function displayDate(){
+		var one_day = 24*60*60*1000;
 		var today = new Date();
-		var day = today.getDate();
-		var month = today.getMonth() + 1;
-		var year = today.getFullYear();
-		var wedding = 03192018;
+		var wedding_date = new Date(2018, 4, 19);
 
-
-		today = "" + day + month + year;
-		$('#countdown').html(wedding - today);
+		var difference = Math.round(Math.abs((today.getTime() - wedding_date.getTime())/(one_day)));
+		$('#countdown').html(difference);
 	}
 
 	$(document).ready(initialize);
