@@ -36,7 +36,7 @@ var wedding = (function(){
 		var wedding = 03192018;
 
 
-		today = day+month+year;
+		today = day + " " + month + " " + year;
 		$('#countdown').html(today);
 	}
 
