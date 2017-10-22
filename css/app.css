@@ -63,4 +63,15 @@ nav ul li a:hover{
 footer{
 	position: fixed;
 	bottom: 0px;
+	height: 100px;
+	width: 100%;
+}
+footer .content{
+	width: 80%;
+	margin: 10 auto;
+	text-align: center;
+}
+#countdown{
+	font-size: 40px;
+	font-weight: bold;
 }
