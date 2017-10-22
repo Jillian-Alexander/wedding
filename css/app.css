@@ -55,7 +55,7 @@ nav ul li a:hover{
 	line-height: 1.5;
 	font-size: 16px;
 }
-.banner-image{ width: 100%; position: absolute; bottom: 0; z-index: -1;}
+.banner-image{ width: 100%; position: absolute; top: 0; z-index: -1;}
 .banner-image img{ width: 100%; }
 
 
@@ -66,12 +66,12 @@ footer{
 }
 footer .content{
 	width: 80%;
-	margin: 10 auto;
+	margin: 10px auto;
 	text-align: center;
 }
 footer .content p{
 	text-align: left;
-	font-size: 40px;
+	font-size: 30px;
 }
 #countdown{
 	font-weight: bold;
