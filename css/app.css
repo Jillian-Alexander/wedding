@@ -69,7 +69,10 @@ footer .content{
 	margin: 10 auto;
 	text-align: center;
 }
-#countdown{
+footer .content p{
+	text-align: left;
 	font-size: 40px;
+}
+#countdown{
 	font-weight: bold;
 }
